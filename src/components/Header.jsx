@@ -1,10 +1,15 @@
-import "../style.css"
+import "../style.css";
+import Logo from "../assets/Logo.png";
 
-
-function Header(){
-  return(
+function Header() {
+  return (
     <div className="header">
-      this is header
+      <div className="header-element">
+        <div className="logo">
+          <img src={Logo}></img>
+        </div>
+        <div className="closed-apply">응모 마감</div>
+      </div>
     </div>
   );
 }
