@@ -6,7 +6,7 @@ import HeroExplain from './components/HeroExplain';
 import Header from './components/Header';
 import Youtube from './components/Youtube';
 import Marquee from './components/Marquee';
-import People_Introduce from './components/People_Introduce';
+import PeopleIntroduce from './components/PeopleIntroduce';
 
 function App() {
   
@@ -18,7 +18,7 @@ function App() {
       <HeroExplain/>
       <Youtube/>
       <Marquee/>
-      <People_Introduce/>
+      <PeopleIntroduce/>
     </>
   )
 }
