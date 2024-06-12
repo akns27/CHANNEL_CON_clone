@@ -21,6 +21,7 @@ function App() {
       <Marquee/>
       <PeopleIntroduce/>
       <Tracks/>
+      <Marquee/>
     </>
   )
 }

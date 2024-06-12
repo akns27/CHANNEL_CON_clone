@@ -1,8 +1,40 @@
 import React from "react";
 import "../style.css";
 import TrackBox from "./TrackBox";
+import TrackBox2 from "./TrackBox2";
 
 function Tracks() {
+  const track1Events = [
+    {
+      time: "13:20 - 14:00",
+      tags: "#스타트업 #글로벌",
+      title:
+        "데스 밸리를 넘어 그로스 스테이지로, 스타트업 대표들의 치열한 생존 스토리",
+      description:
+        "스타트업 대표라면 한 번쯤 겪어봤을 데스 밸리. 이 위기를 극복하고, 성장을 만든 대표들의 비하인드 스토리를 들어보세요.",
+      speakers: [
+        { title: "타임트리", name: "박차진 대표" },
+        { title: "EO", name: "김태용 대표" },
+      ],
+    },
+  ];
+  const track2Events = [
+    {
+      time: "13:20 - 14:00",
+      tags: "#CX #이커머스",
+      title:
+        "채널팀이 준비하는 온라인 비즈니스의 미래: 마일스톤 대방출",
+      description:
+        "AI 인터넷 전화, 영상 미트, 워크플로우 그리고 채널엑스까지. 채널톡 비즈니스 세계관의 주역, 새로운 기능들을 소개합니다.",
+      speakers: [
+        { title: "채널코퍼레이션", name: "최시원 공동 대표" },
+        //, name: "최완섭 CPO", name:"이해빈 리드 백엔드 엔지니어"
+        
+      ],
+    },
+  ];
+  
+
   return (
     <div className="tracks-background">
       <div
@@ -25,19 +57,57 @@ function Tracks() {
         </div>
       </div>
       <div className="track-connect">
-        <div style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "flex-start",
-          gap: "0.3125rem",
-          }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+            gap: "0.3125rem",
+          }}
+        >
           <div className="track-text-box">
             <div className="track-title">Track 1</div>
             <div className="track-description">
               리더십을 위한 비즈니스 스토리
             </div>
           </div>
-          <TrackBox />
+          {track1Events.map((event, index) => (
+            <TrackBox
+              key={index}
+              time={event.time}
+              tags={event.tags}
+              title={event.title}
+              description={event.description}
+              speakers={event.speakers}
+            />
+          ))}
+        </div>
+      </div>
+      <div className="track-connect">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-start",
+            gap: "0.3125rem",
+          }}
+        >
+          <div className="track-text-box">
+            <div className="track-title" style={{color:"#EA94FF"}}>Track 2</div>
+            <div className="track-description" style={{color:"#EA94FF"}}>
+              실무자를 위한 직무 노하우
+            </div>
+          </div>
+          {track2Events.map((event, index) => (
+            <TrackBox2
+              key={index}
+              time={event.time}
+              tags={event.tags}
+              title={event.title}
+              description={event.description}
+              speakers={event.speakers}
+            />
+          ))}
         </div>
       </div>
     </div>

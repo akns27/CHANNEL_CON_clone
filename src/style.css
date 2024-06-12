@@ -321,7 +321,7 @@ div.flow-text {
 
 .tracks-background {
   width: 100vw;
-  height: 132.625rem;
+  height: 100rem;
   background: #000;
   padding-top: 9.37rem;
 }
@@ -397,8 +397,9 @@ div.flow-text {
 
 .event-speakers {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  gap: 2.375rem;
+  gap: 0.25rem;
 }
 
 .speaker {
@@ -410,6 +411,8 @@ div.flow-text {
   line-height: 1.375rem; /* 146.667% */
   letter-spacing: -0.00625rem;
 }
+
+
 
 .speaker-title {
   color: #fff;
