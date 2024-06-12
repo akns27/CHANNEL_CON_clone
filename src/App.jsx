@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Youtube from './components/Youtube';
 import Marquee from './components/Marquee';
 import PeopleIntroduce from './components/PeopleIntroduce';
+import Tracks from './components/Tracks';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Youtube/>
       <Marquee/>
       <PeopleIntroduce/>
+      <Tracks/>
     </>
   )
 }

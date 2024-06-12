@@ -80,7 +80,7 @@ function People_Introduce() {
 
   return (
     <div className="people-introduce-background">
-      <div className="people-introduce-title">
+      {/* <div className="people-introduce-title"> */}
         <div style={{ color: "#fff" }}>
           <div className="title" style={{ color: "#fff" }}>
             업계 최고 연사들과 이야기하는
@@ -106,7 +106,7 @@ function People_Introduce() {
           ))}
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 
