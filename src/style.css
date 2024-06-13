@@ -494,8 +494,11 @@ div.flow-text {
 
 .hero-banner {
   width: 100vw;
-  height: auto;
+  height: 45rem;
+  background-image: url('https://raw.githubusercontent.com/akns27/CHANNEL_CON_clone/dcdaecdebe7d4e21ba5da642073dbe7616829eb1/src/assets/HeroBanner.svg');
+  background-size: cover; 
 }
+
 .hero-container {
   position: relative;
   /* text-align: center; */
@@ -503,10 +506,14 @@ div.flow-text {
 
 .hero-content {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 
 .hero-description {
@@ -549,4 +556,7 @@ div.flow-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hero-banner {
 }
