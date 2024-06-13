@@ -493,3 +493,9 @@ div.flow-text {
   justify-content: center; /* 변경: 가로 가운데 정렬 */
   margin-top: 3.44rem;
 }
+
+
+.hero-banner{
+  width: 100vw;
+  height: auto;
+}
