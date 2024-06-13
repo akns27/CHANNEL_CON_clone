@@ -412,8 +412,6 @@ div.flow-text {
   letter-spacing: -0.00625rem;
 }
 
-
-
 .speaker-title {
   color: #fff;
   font-family: Inter;
@@ -494,8 +492,61 @@ div.flow-text {
   margin-top: 3.44rem;
 }
 
-
-.hero-banner{
+.hero-banner {
   width: 100vw;
   height: auto;
+}
+.hero-container {
+  position: relative;
+  /* text-align: center; */
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-description {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.125rem; /* 141.667% */
+  letter-spacing: -0.03125rem;
+}
+
+.hero-btn {
+  display: inline-flex;
+  padding: 1.625rem 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-btn-text {
+  width: 226.58px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 100% */
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.hero-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

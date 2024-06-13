@@ -15,6 +15,8 @@ function People_Introduce() {
       speakerName: "김태용",
       jobLevel: "대표"
     },
+
+    //../를 써라(상위폴더로)
     {
       speakerPhoto: "https://github.com/akns27/CHANNEL_CON_clone/blob/master/src/assets/speaker/%EA%B9%80%EC%9E%AC%ED%99%8D.png?raw=true", 
       companyPhoto: "https://github.com/akns27/CHANNEL_CON_clone/blob/master/src/assets/company/%EC%B1%84%EB%84%90%EC%BD%94%ED%8D%BC%EB%A0%88%EC%9D%B4%EC%85%98.png?raw=true",
