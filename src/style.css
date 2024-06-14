@@ -321,7 +321,7 @@ div.flow-text {
 
 .tracks-background {
   width: 100vw;
-  height: 100rem;
+  height: auto;
   background: #000;
   padding-top: 9.37rem;
 }

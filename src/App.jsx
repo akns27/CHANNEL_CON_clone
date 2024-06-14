@@ -8,6 +8,7 @@ import Youtube from './components/Youtube';
 import Marquee from './components/Marquee';
 import PeopleIntroduce from './components/PeopleIntroduce';
 import Tracks from './components/Tracks';
+import EndBannerComponent from './components/EndBannerComponent';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
       <Marquee/>
       <PeopleIntroduce/>
       <Tracks/>
+      <EndBannerComponent/>
       <Marquee/>
     </>
   )

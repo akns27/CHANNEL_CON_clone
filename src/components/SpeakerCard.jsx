@@ -8,6 +8,8 @@ function SpeakerCard({
   companyName,
   speakerName,
   jobLevel,
+//   import Logo from "../assets/Logo.png";
+// <img src={Logo}></img>
 }) {
   return (
     <div className="card-container">
