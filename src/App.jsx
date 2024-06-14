@@ -22,7 +22,7 @@ function App() {
       <Marquee/>
       <PeopleIntroduce/>
       <Tracks/>
-      <EndBannerComponent/>
+      {/* <EndBannerComponent/> */}
       <Marquee/>
     </>
   )
