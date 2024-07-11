@@ -1,8 +1,59 @@
-# React + Vite
+# 채널콘  클론코딩
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 프로젝트 설명
+<br>
+주식회사 채널코퍼레이션에서 개최했던 컨퍼런스인 [채널콘 2024](https://channelcon.io/)의 랜딩페이지를 클론코딩했다.
+<br>
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🗓 진행 기간
+
+2024.06.15 ~ 2024.07.03
+<br>
+<br>
+
+### 👬 만든 이
+
+<img src="https://avatars.githubusercontent.com/u/97615164?v=4"  width="130"/>|
+|:-:|
+[박강원](https://github.com/akns27)|
+<br>
+<br>
+
+
+### 🛠️ 사용 기술
+
+- React(프론트엔드 개발)
+- Figma(디자인)
+<br>
+<br>
+
+### ❓ 채널콘의 랜딩페이지를 만든 이유
+
+```
+평소에 채널코퍼레이션이라는 회사의 서비스인 채널톡에 관심이 많았었다.
+그러던 중 몇 개월 전 채널콘이라는 것을 알게 되어 주의 깊게 살펴보았고,
+디자인적으로 재미있는 요소(히어로페이지, marquee, 카드 디자인, 트랙 소개 등)들이 채널콘 랜딩페이지에 많이 녹아들어 있어
+내가 한번 구현하고 싶다! 라고 느꼈기에 만들게 되었다.
+```
+<br>
+<br>
+
+### 📺 시연영상 & 발표자료
+
+[시연영상](http://naver.me/5YFuPlt1)<br/>
+<br>
+<br>
+## 🔎 페이지 살펴보기
+<br>
+<br>
+
+## 🥹 아쉬웠던 점
+개인적으로 시간의 부족함이 있었기에 구현하지 못한 부분이 있었는데 그 부분들을 살렸다면 더 퀄리티가 좋은 작품을 보여줄 수 있었을 것 같아서 아쉬웠습니다.
+
+## 🍀 앞으로의 계획
+시간이 부족하여 하지못헌 카테고리 별 분류나 FAQ 등을 개발하여 페이지의 퀄리티를 높일 예정입니다.
+
+
+
